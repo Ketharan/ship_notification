@@ -12,3 +12,26 @@
                            * Get shipping status update and API call for Facebook messenger
     sqlexport : contains the exported mysql database file. 
 
+**Requirements**
+***
+
+    1. Any kind of localserver(XAMPP,LAMP) should have been installed.
+    2. mysql server should have been initialized with port 3306
+    3. Java SDK should have been installed and configured.
+    4. Ballerina should be installed.
+
+**How to run**
+***
+
+    1. Download the repository and extract.
+    2. Import the extracted sqlfile to the mysql server.
+    3. open the command line inside the root folder.
+    4. run command `sudo ballerina run ship_note` in the command line
+    5. goto front-ui/executable
+    6. run the admin_porta.jar
+    7. Click the get details button.
+    8. Select a customer from the dropdown.
+    9. Change the shipping status and click update button.
+    10. A state change message will be sent to that user.
+
+    
