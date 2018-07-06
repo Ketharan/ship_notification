@@ -1,2 +1,1 @@
-#simple calculator
-simple calculator with basic functionalities
+Ballerina integration with facebook messenger
